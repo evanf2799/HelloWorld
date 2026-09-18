@@ -5,5 +5,6 @@ public class HelloWorld {
         System.out.println("What's your name?");
         String name = s.nextLine();
         System.out.println("Hello, " + name + "!");
+        s.close();
     }
 }
